@@ -1,0 +1,20 @@
+@keyframes pedidoo {
+    from {color: white;  width: 90px; height: 20px;}
+    to {color: rgb(255, 255, 173); width: 94px; height: 23px;}
+}
+.pedido:hover{
+        animation-name: pedidoo;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-duration: 0.4s;
+}
+
+.dentodento:hover{
+ background-color: rgb(233, 233, 233);
+}
+.dentomeio:hover{
+ background-color: rgb(233, 233, 233);
+}
+.dentobaixo:hover{
+ background-color: rgb(233, 233, 233);
+}
