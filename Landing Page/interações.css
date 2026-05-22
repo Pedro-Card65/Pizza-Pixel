@@ -1,0 +1,41 @@
+@keyframes pedidoo {
+    from {color: white;  width: 110px; height: 20px;}
+    to {color: rgb(255, 255, 173); width: 114px; height: 23px;}
+}
+@keyframes giro{
+    from{ transform: rotate(0deg)}
+    to{ transform: rotate(90deg)}
+}
+.pedido:hover{
+        animation-name: pedidoo;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-duration: 0.4s;
+    }
+    .Login:hover{
+        animation-name: pedidoo;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-duration: 0.4s;
+    }
+
+.dentodento:hover{
+ background-color: rgb(233, 233, 233);
+}
+.dentomeio:hover{
+ background-color: rgb(233, 233, 233);
+}
+.dentobaixo:hover{
+ background-color: rgb(233, 233, 233);
+}
+
+.pedido:hover img{
+    animation-name: giro;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.Login:hover img{
+    animation-name: giro;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
