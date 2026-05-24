@@ -1,0 +1,43 @@
+.fundoprincipal{
+width: 100%;
+height: 100rem;
+background-color: red;
+display: flex;
+z-index: 1;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 2rem;
+}
+
+.imagemprincipal{
+width: 100%;
+height: 100rem;
+z-index: 1;
+-webkit-user-drag: none;
+}
+
+.logotexto{
+    color: rgb(255, 255, 255);
+    font-size: 3.8rem;
+    z-index: 2;
+    text-decoration: underline;
+    user-select: none;
+   text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+.logotexto2{
+    color: rgb(255, 255, 255);
+    font-size: 3.8rem;
+    z-index: 2;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0); 
+    text-decoration: underline;
+    user-select: none;
+  
+}
+.atras{
+    width: 100%;
+    z-index: 1;
+    height: 100rem;
+    position: absolute;
+    background-image: url(https://64.media.tumblr.com/9056eaadcd5ebc44d1ee74c678bf50dc/147bfebdf112f180-d5/s1280x1920/a24e55ef05a532c3ef13f328db00f8b7d4d21edc.gifv);
+}

@@ -1,6 +1,6 @@
 @keyframes pedidoo {
-    from {color: white;  width: 110px; height: 20px;}
-    to {color: rgb(255, 255, 173); width: 114px; height: 23px;}
+    from {color: white;  width: 11rem; height: 2rem;}
+    to {color: rgb(255, 255, 173); width: 11.4rem; height: 2.3rem;}
 }
 @keyframes giro{
     from{ transform: rotate(0deg)}
@@ -12,12 +12,18 @@
         animation-fill-mode: forwards;
         animation-duration: 0.4s;
     }
-    .Login:hover{
+
+.Login:hover{
         animation-name: pedidoo;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         animation-duration: 0.4s;
-    }
+}
+.imagemprincipal:hover{
+    color: rgb(240, 248, 255);
+}
+
+
 
 .dentodento:hover{
  background-color: rgb(233, 233, 233);
