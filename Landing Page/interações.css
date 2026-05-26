@@ -1,6 +1,6 @@
 @keyframes pedidoo {
-    from {color: white;  width: 11rem; height: 2rem;}
-    to {color: rgb(255, 255, 173); width: 11.4rem; height: 2.3rem;}
+    from {color: white;  width: 12rem; height: 2rem;}
+    to {color: rgb(255, 255, 173); width: 12.4rem; height: 2.3rem;}
 }
 @keyframes giro{
     from{ transform: rotate(0deg)}
@@ -26,13 +26,16 @@
 
 
 .dentodento:hover{
- background-color: rgb(233, 233, 233);
+ background-color: rgb(15, 15, 179);
+    color: rgb(236, 201, 42);
 }
 .dentomeio:hover{
- background-color: rgb(233, 233, 233);
+ background-color: rgb(15, 15, 179);
+    color: rgb(236, 201, 42);
 }
 .dentobaixo:hover{
- background-color: rgb(233, 233, 233);
+ background-color: rgb(15, 15, 179);
+    color: rgb(236, 201, 42);
 }
 
 .pedido:hover img{

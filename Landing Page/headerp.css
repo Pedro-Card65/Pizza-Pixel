@@ -10,7 +10,7 @@ html{
 .Headerprincipal{
     width: 100%;
     height: 10rem;
-    background-color: rgb(114, 114, 114) ;
+    background-color: rgb(27, 27, 112);
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -29,7 +29,6 @@ html{
 .Headermeio{
     width: 110rem;
     height: 10rem;
-    background-color: gray;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -41,7 +40,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: gray;
+    margin-right: 2.5rem;
 }
 
 .fotologin{
@@ -49,52 +48,83 @@ html{
     width: 2rem;
 }
 .pedido p{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 600;
+
+    /* fonte */
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 a{
     text-decoration: none;
 }
 
 .inicio{
-    background-color: white;
+    box-sizing: border-box;
+    border-bottom: solid 0.2em rgb(236, 201, 42);
+    color: rgb(236, 201, 42);
     display: flex;
     height: 4rem;
     width: 10rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 1.7em;
+    font-size: 3em;
+
+    /* fonte */
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 .historia{
-    font-size: 1.7em;
-    background-color: white;
+    box-sizing: border-box;
+    border-bottom: solid 0.2em rgb(236, 201, 42);
+    color: rgb(236, 201, 42);
+    font-size: 3em;
     display: flex;
     height: 4rem;
-    width: 10rem;
+    width: 13rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
+    /* fonte */
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .cardapio{
-    font-size: 1.7em;
-    background-color: white;
+    box-sizing: border-box;
+    border-bottom: solid 0.2em rgb(236, 201, 42);
+    color: rgb(236, 201, 42);
+    font-size: 3em;
     display: flex;
     height: 4rem;
-    width: 10rem;
+    width: 13rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+    /* fonte */
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-.Unidades{
-    background-color: white;
-    display: flex;
-    height: 4rem;
-    width: 10rem;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+
+.nada{
+    cursor: default;
+    text-decoration: double;
+    box-sizing: border-box;
+    color: rgb(236, 201, 42);
+
+    /* fonte */
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 .nave{
     height: 3.5rem;
 }
@@ -112,6 +142,16 @@ a{
     font-weight: 600;
     
 }
+.Login p{
+    font-size: 1.8rem;
+    font-weight: 600;
+
+    /* fonte */
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .pedido{
     background-image: url(https://i.pinimg.com/originals/8e/ff/81/8eff81d46686e3c82c64565eb09393b9.gif);
     border-radius: 0.4rem;
@@ -124,10 +164,7 @@ a{
     justify-content: center;
 }
 
-.nada{
-    cursor: default;
-    text-decoration: double;
-}
+
 
 
 
@@ -156,55 +193,82 @@ a{
 
 /* Details */
 .detalhes{
-    background-color: white;
     height: 4rem;
-    width: 10rem;
+    width: 14rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     z-index: 10;
     position: relative;
+    box-sizing: border-box;
+    border-bottom: solid 0.69rem rgb(236, 201, 42);
 }
 
 .detalhes[open]{
-    width: 10rem;
+    width: 14rem;
+}
+
+.detalhes:hover{
+    cursor: pointer;
+}
+
+.detalhes[open]:hover{
+    cursor: pointer;
+}
+
+.nada:hover{
+    cursor: pointer;
+}
+
+.nada[open]:hover{
+    cursor: pointer;
 }
 
 .dento{
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: rgb(236, 201, 42);
+    background-color: rgb(236, 201, 42);
     width: 28rem;
     height: 20rem;
-    background-color: rgb(48, 48, 48);
     position: absolute;
-    border-radius: 1.5rem;
+    border-radius: 0.5rem;
     gap: 0.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     z-index: 10;
+
 }
 .nada{
-   font-size: 1.7rem;
+   font-size: 2.8rem;
+   user-select: none;
 }
 
+
+
 .dentodento{
-    background-color: white;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    background-color: rgb(26, 26, 143);
+    color: rgb(236, 201, 42);
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
     width: 28rem;
     height: 4.8rem;
     display: flex;
     align-items: center;
     font-size: 10px;
-    
+}
+
+.p{
+    margin-left: 0.7rem;
+    font-size: 2rem;
 }
 .dentobaixo{
-    background-color: white;
-    border-bottom-right-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
+    background-color: rgb(26, 26, 143);
+    color: rgb(236, 201, 42);
+    border-bottom-right-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
     width: 28rem;
     height: 4.8rem;
     display: flex;
@@ -212,7 +276,8 @@ a{
     cursor: pointer;
 }
 .dentomeio{
-    background-color: white;
+    background-color: rgb(26, 26, 143);
+    color: rgb(236, 201, 42);
     width: 28rem;
     height: 4.8rem;
     display: flex;
