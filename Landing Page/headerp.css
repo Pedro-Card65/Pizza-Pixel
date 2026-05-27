@@ -40,12 +40,11 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-right: 2.5rem;
 }
 
 .fotologin{
     height: 3rem;
-    width: 2rem;
+    width: 3.5rem;
 }
 a{
     text-decoration: none;
@@ -117,7 +116,7 @@ a{
 }
 
 .nave{
-    height: 3.5rem;
+    height: 5rem;
 }
 
 .Login{
@@ -126,14 +125,14 @@ a{
     align-items: center;
     padding: 0.9rem;
     color: white;
-    width: 11rem;
+    width: 14rem;
     display: flex;
     font-size: 1.4em;
     font-weight: 600;
     
 }
 .Login p{
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 600;
 
     /* fonte */
@@ -144,11 +143,11 @@ a{
 
 .pedido{
     border-radius: 0.4rem;
-    height: 2rem;
+    height: 1rem;
     align-items: center;
     padding: 0.9rem;
     color: white;
-    width: 11rem;
+    width: 1rem;
     display: flex;
     justify-content: center;
 }
