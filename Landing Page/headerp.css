@@ -6,7 +6,9 @@ html{
     margin: 0;
     padding: 0;
 }
-
+.Headerprincipal a {
+    display: flex;
+}
 .Headerprincipal{
     width: 100%;
     height: 10rem;
@@ -181,8 +183,9 @@ a{
 
 /* Details */
 .detalhes{
-    height: 4rem;
+    height: auto;
     width: 14rem;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;

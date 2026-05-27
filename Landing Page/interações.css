@@ -1,6 +1,12 @@
 @keyframes pedidoo {
-    from {color: white;  width: 14rem; height: 2rem;}
-    to {color: rgb(255, 255, 173); width: 14rem; height: 2.3rem;}
+    from {
+        color: white;
+        transform: scale(1);
+    }
+    to {
+        color: rgb(255, 255, 173);
+        transform: scale(1.05);
+    }
 }
 @keyframes giro{
     from{ transform: rotate(0deg)}
@@ -32,8 +38,7 @@
     color: rgb(236, 201, 42);
 }
 
-.Login:hover img{
-    animation-name: giro;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+.Login:hover img {
+    animation: giro 0.6s forwards;
+    transform-origin: center;
 }
