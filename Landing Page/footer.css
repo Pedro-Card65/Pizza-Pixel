@@ -11,10 +11,21 @@
     width: 6rem;
     height: 6rem;
 }
+@keyframes giro2{
+    0%{}
+    80%{transform: rotate(0deg); margin-left: 100rem}
+    90%{ transform: rotate(360deg);margin-left: 100rem}
+    100%{ transform: rotate(-360deg);margin-left: 100rem}
+}
+.pacmanhehe:hover{
+    animation-name: giro2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
 .seta img{
     width: 4rem;
     height: 4rem;
-    margin-right: 6rem; 
+    margin-right: 5rem; 
 }
 .telefone{
     color: white;
