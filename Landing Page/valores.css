@@ -1,0 +1,33 @@
+.Valors{
+    background-color: rgb(37, 37, 148);
+    width: 100%;
+    height: 89rem;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow:inset 0 -2rem 4rem -3rem rgba(255, 255, 255, 0.281);
+}
+
+.descricaovalores{
+    display: flex;
+    justify-content: space-around;
+}
+.imagensvalores{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.Caixa{
+    width: 30rem;
+    height: 30rem;
+    background-color: white;
+    justify-content: space-around;
+}
+.Caixa2{
+    width: 30rem;
+    height: 50rem;
+    background-color: rgb(240, 168, 168);
+    justify-content: space-around;
+}
