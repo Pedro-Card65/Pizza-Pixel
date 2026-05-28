@@ -19,15 +19,26 @@
     margin-top: 4rem;
 }
 
-.Caixa{
+.Imagem1, .Imagem2, .Imagem3{
     width: 30rem;
     height: 30rem;
     background-color: white;
     justify-content: space-around;
 }
-.Caixa2{
+.Desc1, .Desc2, .Desc3{
     width: 30rem;
     height: 50rem;
     background-color: rgb(240, 168, 168);
     justify-content: space-around;
+}
+.Desc1{
+    background-color: red;
+}
+
+.Desc2{
+    background-color: rgb(90, 255, 255);
+}
+
+.Desc3{
+    background-color: rgb(255, 117, 232);
 }

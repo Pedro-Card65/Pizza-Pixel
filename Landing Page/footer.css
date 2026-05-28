@@ -5,8 +5,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.descricaogeral h1{
+    
+     font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
 
 }
+
+.descricaogeral p{
+    color: white;
+    text-decoration: none;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6em;
+}
+
 .pacmanhehe img{
     width: 6rem;
     height: 6rem;
@@ -21,6 +38,7 @@
     animation-name: giro2;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
 }
 .seta img{
     width: 4rem;
