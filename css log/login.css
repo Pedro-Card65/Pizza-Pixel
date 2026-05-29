@@ -86,7 +86,19 @@ html{
     background-color: rgb(255, 225, 75);
 }
 
-.FormularioLogin a{
+.LinksLogin{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.LinksLogin a{
+    color: rgb(236, 201, 42);
+    font-size: 2rem;
+    font-family: "Jersey 10", sans-serif;
+}
+
+.VoltarLogin{
     color: white;
     font-size: 2rem;
     font-family: "Jersey 10", sans-serif;
@@ -103,5 +115,11 @@ html{
     .FotoLogin,
     .FormularioLogin{
         width: 100%;
+    }
+
+    .LinksLogin{
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
     }
 }

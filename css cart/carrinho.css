@@ -1,0 +1,79 @@
+html{
+    background-image: url(https://64.media.tumblr.com/27a9372faf571224ac2188fe55dec85d/147bfebdf112f180-63/s1280x1920/01b015e6199c48fddeaab42715612591c8770707.gifv);
+}
+
+.FundoCarrinho{
+    width: 100%;
+    min-height: 85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CaixaCarrinho{
+    width: 65rem;
+    min-height: 45rem;
+    background-color: rgba(11, 11, 48, 0.685);
+    border: solid 0.3rem rgb(236, 201, 42);
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.CaixaCarrinho img{
+    width: 8rem;
+    margin-bottom: 2rem;
+}
+
+.CaixaCarrinho h1{
+    color: rgb(236, 201, 42);
+    font-size: 6rem;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+.CaixaCarrinho p{
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Jersey 10", sans-serif;
+}
+
+.BotoesCarrinho{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.BotoesCarrinho a{
+    background-color: rgb(236, 201, 42);
+    color: rgb(27, 27, 112);
+    width: 18rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    font-size: 2.5rem;
+    font-family: "Jersey 10", sans-serif;
+}
+
+.BotoesCarrinho a:hover{
+    background-color: rgb(255, 225, 75);
+}
+
+@media(max-width: 900px){
+    .CaixaCarrinho{
+        width: 90%;
+    }
+
+    .BotoesCarrinho{
+        flex-direction: column;
+    }
+}
