@@ -1,44 +1,91 @@
 .Valors{
     background-color: rgb(37, 37, 148);
     width: 100%;
-    height: 89rem;
+    padding: 6rem 4rem;
+
     display: flex;
-    box-sizing: border-box;
     flex-direction: column;
-    gap: 2rem;
-    box-shadow:inset 0 -2rem 4rem -3rem rgba(255, 255, 255, 0.281);
+    gap: 4rem;
+
+    box-sizing: border-box;
+
+    box-shadow: inset 0 -2rem 4rem -3rem rgba(255, 255, 255, 0.281);
 }
 
-.descricaovalores{
-    display: flex;
-    justify-content: space-around;
-}
+/* IMAGENS */
 .imagensvalores{
     display: flex;
-    justify-content: space-around;
-    margin-top: 4rem;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
 }
 
-.ImagemMissao img, .ImagemVisao img, .ImagemValores img{
-    width: 30rem;
-    height: 30rem;
-    background-color: white;
-    justify-content: space-around;
-}
-.DescricaoMissao p, .DescricaoVisao p, .DescricaoValores p{
-    width: 30rem;
-    height: 50rem;
-    background-color: rgb(240, 168, 168);
-    justify-content: space-around;
-}
-.DescricaoMissao{
-    background-color: red;
+.ImagemMissao img,
+.ImagemVisao img,
+.ImagemValores img{
+    width: 28rem;
+    height: 28rem;
+
+    object-fit: cover;
+
+    border-radius: 2rem;
+
+    box-shadow: 0 0 2rem rgba(0,0,0,0.4);
+
+    transition: 0.3s;
 }
 
-.DescricaoVisao{
-    background-color: rgb(90, 255, 255);
+.ImagemMissao img:hover,
+.ImagemVisao img:hover,
+.ImagemValores img:hover{
+    transform: scale(1.03);
 }
 
+/* DESCRIÇÕES */
+.descricaovalores{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+    flex-wrap: wrap;
+}
+
+.DescricaoMissao,
+.DescricaoVisao,
 .DescricaoValores{
-    background-color: rgb(255, 117, 232);
+    width: 28rem;
+
+    background-color: rgba(255,255,255,0.12);
+
+    border-radius: 2rem;
+
+    padding: 2.5rem;
+
+    box-sizing: border-box;
+
+    backdrop-filter: blur(5px);
+
+    box-shadow: 0 0 2rem rgba(0,0,0,0.3);
+
+    transition: 0.3s;
+}
+
+.DescricaoMissao:hover,
+.DescricaoVisao:hover,
+.DescricaoValores:hover{
+    transform: translateY(-5px);
+}
+
+.DescricaoMissao p,
+.DescricaoVisao p,
+.DescricaoValores p{
+    color: white;
+
+    font-size: 2rem;
+
+    line-height: 3.2rem;
+
+    text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
