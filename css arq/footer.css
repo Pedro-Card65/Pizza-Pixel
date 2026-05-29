@@ -1,18 +1,20 @@
 .descricaogeral{
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 9rem;
+    min-height: 14rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding: 2rem;
 }
+
 .descricaogeral h1{
-    
-     font-family: "Jersey 10", sans-serif;
+    color: rgb(236, 201, 42);
+    font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 3em;
-
+    font-size: 2.8em;
 }
 
 .descricaogeral p{
@@ -21,45 +23,54 @@
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.6em;
+    font-size: 1.9em;
 }
 
 .pacmanhehe img{
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
 }
+
 @keyframes giro2{
     0%{}
     80%{transform: rotate(0deg); margin-left: 100rem}
     90%{ transform: rotate(360deg);margin-left: 100rem}
     100%{ transform: rotate(-360deg);margin-left: 100rem}
 }
+
 .pacmanhehe:hover{
     animation-name: giro2;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
 }
+
 .seta img{
     width: 4rem;
     height: 4rem;
-    margin-right: 5rem; 
 }
-.telefone{
+
+.telefone, .instagram, .sobrenos, .feedback, .antigo{
     color: white;
+    width: 18rem;
+    text-align: center;
 }
-.instagram{
-    color: white;
+
+.sobrenos, .feedback{
+    width: 24rem;
 }
-.sobrenos{
-    color: white;
-}
-.feedback{
-    color: white;
-}
-.antigo{
-    color: white;
-}
+
 .antigo a{
     color: yellow;
+}
+
+.antigo a p{
+    color: rgb(236, 201, 42);
+}
+
+@media(max-width: 900px){
+    .descricaogeral{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
 }
