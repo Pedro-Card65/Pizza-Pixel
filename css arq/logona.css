@@ -20,22 +20,23 @@ z-index: 1;
 
 
 .logotexto{
-    display: flex;
     text-align: center;
     color: rgb(255, 255, 255);
 
-
     color: white;
-    font-size: 6rem;
+    font-size: 8rem;
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     text-shadow: 2px 2px 8px rgb(0, 0, 0);
 
     z-index: 2;
-    text-decoration: underline;
     user-select: none;
-  
 }
+
+span#Y {
+    color: rgb(236, 201, 42);
+}
+
 .atras{
     width: 100%;
     z-index: 1;
